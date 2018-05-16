@@ -1,0 +1,33 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<nav>
+<div class="container-fluid">
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+ </div> 
+  <form>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Enter Name" >
+    </mat-form-field>
+  
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Enter Mobile Number">
+    </mat-form-field>
+  </form> 
+  <div style="text-align:center">
+    
+      <button class="nav navbar-nav" mat-raised-button color="primary" (click)="gotoProfile()">Login</button>
+     
+
+  </div>
+
+ 
+  <div class='container'>
+      <br /><br /><br />
+      <router-outlet></router-outlet>
+    </div>
+</div>
+  </nav>
+  
+  
